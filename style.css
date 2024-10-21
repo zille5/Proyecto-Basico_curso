@@ -1,0 +1,106 @@
+        /*  Reset          */
+        * {padding: 0;
+            margin: 0;}
+
+        a {text-decoration: none;
+        color: Black;}
+        
+         ul{list-style: nonr;
+             margin-right:0;}
+
+        /*  Codigo pagina en desktop */
+
+        header,nav,main,footer {width: 80%;
+                                margin: 0 auto;}
+
+        nav   {  
+                 min-height: 8rem;
+                 background-color: orange;}
+
+       main {
+                 display: flex;
+                 justify-content: space-around; 
+                 min-height: 20rem;
+                background-color: lightblue;
+                flex-wrap: wrap;
+                
+                }
+        footer {  
+                  min-height:7rem;
+                  background-color:chartreuse;}
+
+        .ponerBorder { border: 0.3rem solid black;}
+
+         main div { width:30%;
+              min-height: 5rem;
+              background-color: lightgray;
+              border: 0.2rem solid red;}
+
+         .izqa {background-color: rgba(29 , 216,216);}
+           .dcha{ background-color: rgb( 109, 5 ,207);}
+          .centro{background-color: rgb(243,83,83);}
+
+
+          main div a { font-size: 1.2rem;
+                       color: brown;
+                       font-weight: 600;
+                       font-family: Verdana,Geneva,Tohama,sans-serif;}
+
+
+        ul{border: 0.1 rem solid  blue ;
+            height: 8rem;
+            display:flex;
+          justify-content: space-around ;
+          align-items: center;}
+
+
+       ul li {width:8rem;
+             height:3.5rem;
+             background-color: burlywood;
+             border: 0.1rem solid green;
+             margin: 0.5rem;}
+
+             ul li a{font-size: 2rem;
+                color: blueviolet;
+                display: block;
+                text-align: center;
+                padding-top: 0.5rem;
+                background-color: black;
+                border-radius: 15%;
+                }
+             
+             ul li a: hover{background-color: blueviolet;
+                            color: black;
+                             transition: 500ms;
+                            }
+        
+
+
+                       /* codigo pagina en tablet */
+
+                       /* codigo pagina en selfphone */
+
+                       @media screen  and ( max-width:900px) {
+                        
+                           nav ul { display: flex;
+                                  flex-direction: column;
+                        
+                        }
+                        min div { width: 45% ;}
+
+                         body {background-color: aqua;}
+
+
+                       }
+                       @media only screen and (max-width: 702px){
+                         
+                        min div { width: 90%;}
+
+                         body{
+                            background-color: blue;
+                         }
+
+                       }
+
+                        
+                       
