@@ -13,6 +13,10 @@
         header,nav,main,footer {width: 80%;
                                 margin: 0 auto;}
 
+          header{ min-height: 15rem;
+       background-color: pink;
+          }
+
         nav   {  
                  min-height: 8rem;
                  background-color: orange;}
@@ -73,6 +77,24 @@
                             color: black;
                              transition: 500ms;
                             }
+
+
+                header{ display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: flex-start;
+
+
+
+                }
+          
+      h1 ,h2,p { width: 50%;
+                background-color: cadetblue;
+                margin: 0.5rem;
+                border:  0.3rem solid green;
+                text-align: center;
+
+      }
         
 
 
