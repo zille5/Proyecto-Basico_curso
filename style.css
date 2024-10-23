@@ -119,6 +119,12 @@
                                               border: 0.1rem solid red;
                                 }
 
+
+                                footer {background-image: url("img.carpeta/");
+                                 background-size: 12%;
+                 background-repeat: repeat:repeat-x;}
+                  
+
                           
                 
 
