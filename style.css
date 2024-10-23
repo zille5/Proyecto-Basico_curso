@@ -10,6 +10,8 @@
 
         /*  Codigo pagina en desktop */
 
+    body{padding-top: 7rem;}
+
         header,nav,main,footer {width: 80%;
                                 margin: 0 auto;}
 
@@ -19,12 +21,18 @@
 
         nav   {  
                  min-height: 8rem;
-                 background-color: orange;}
+                 background-color: orange;
+                position: fixed;
+                top: 0;
+                left: 10%;
+                
+                
+                }
 
        main {
                  display: flex;
                  justify-content: space-around; 
-                 min-height: 20rem;
+                 min-height: 60rem;
                 background-color: lightblue;
                 flex-wrap: wrap;
                 
@@ -79,22 +87,41 @@
                             }
 
 
-                header{ display: flex;
-                        flex-direction: column;
-                        align-items: center;
-                        justify-content: flex-start;
+                            header{display: flex;}
+
+                            header>div{border: 0.2rem solid red;}
+                    
+                            header>div.logo{width: 25%}
+                    
+                            header>div.titulo{width: 75%;
+                                            display: flex;
+                                            flex-direction: column;
+                                            justify-content: center;
+                                            align-items: center;}
+                    
+                            h1, h2, p {width: 50%;
+                                    background-color: cadetblue;
+                                    margin: 0.5rem;
+                                    border: 0.3 solid green;
+                                    text-align: center;}
 
 
+                                 section {width: 100%;
+                                        background-color: chartreuse;
+                                         min-height: 20rem;
+                                        border: 0.1rem solid red;
+                                        display: flex;}
+                                article.mapa {width: 40%;
+                                        border: 0.1rem solid red;}
+                                article.form {width: 60%;
+                                              background-color: darkgray;
+                                              min-height: 20rem;
+                                              border: 0.1rem solid red;
+                                }
 
-                }
-          
-      h1 ,h2,p { width: 50%;
-                background-color: cadetblue;
-                margin: 0.5rem;
-                border:  0.3rem solid green;
-                text-align: center;
+                          
+                
 
-      }
         
 
 
